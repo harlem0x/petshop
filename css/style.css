@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+   
+}
+@font-face {
+    font-family:    'cuteMeow' ;
+    src: url(../font/cute-meow-font/CuteMeow-51Pra.otf);
+}
+h1{
+    font-family:cuteMeow;
+    font-size: 50px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer; 
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+.pet-image {
+    width: 100%;
+    max-width: 480px;
+    height: 787;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+   
+}
+
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 20px;
+}
+
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.btnAdicionar {
+    background-color: #be12e9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnAdicionar:hover {
+    background-color: #8000b6;
+}
+
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.resultado{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/*atualizaçoes 
+- criar o mediaquery
+botoes quebrando tranformar em menu hamburnger
+
+centralizar melhor as informaçoes no mobile 
+
+*/

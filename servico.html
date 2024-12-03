@@ -1,0 +1,45 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Serviços - Mundo Pet</title>
+        <link rel="stylesheet" href="css/desktop.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Gestão de Serviços</h1>
+            <section id="cadastro-servico">
+                <h2>Escolha o Serviço</h2>
+                <select id="tipo-servico">
+                    <option value="banho">Banho</option>
+                    <option value="tosa">Tosa</option>
+                    <option value="consulta">Consulta Veterinária</option>
+                    <option value="vacinacao">Vacinação</option>
+                </select>
+            </section>
+            <section id="agendamento">
+                <h2>Agendamento</h2>
+                <form id="agendamento-form">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" required>
+                    
+                    <label for="horario">Horário:</label>
+                    <input type="time" id="horario" required>
+                    
+                    <button type="button" id="agendar-servico">Agendar Serviço</button>
+                </form>
+            </section>
+            <a href="index.html" class="link-cadastro">Voltar para Cadastro</a>
+            <div class="resultado" id="resultado"></div>
+        </div>
+        
+        <script src="js/serviços.js"></script>
+    </body>
+    </html>
+    
+
+
+</body>
+</html>

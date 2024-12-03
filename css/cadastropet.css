@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+ *{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cadastropet{
+    background: #fff;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+    flex-direction: column;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    
+}
+.inputtexto{
+    width: 200px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+    
+
+}
+label{
+    font-size: 20px;
+
+}
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dc20cc;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}

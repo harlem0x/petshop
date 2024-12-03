@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input, select, textarea {
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    background-color: #b30ee5;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.link-servicos, .link-cadastro {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.link-servicos:hover, .link-cadastro:hover {
+    text-decoration: underline;
+}
+
+.resultado {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    
+}

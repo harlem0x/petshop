@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cadastro</a></li>
+                <li><a href="servico.html">Serviços</a></li>
+                <li><a href="#">Cadastro pet</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form id="form-cadastro" >
+            <div class="form-container">
+              
+               
+                    <img src="imagem/Design sem nome (3).png" alt="Foto de um pet" class="pet-image" >
+               
+             
+                <div class="form-content">
+                    
+                    <section class="form-section">
+                        <h1>Mundo Pet</h1>
+                        <h2>Cadastro Cliente</h2>
+                        <label for="nome" class="nome">Nome</label>
+                        <input type="text" id="nome" name="cliente_nome" placeholder="Digite seu nome" required>
+
+                        <label for="telefone" class="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="cliente_telefone" placeholder="Digite seu telefone" required>
+
+                        <label for="endereco" class="endereco">Endereço</label>
+                        <input type="text" id="endereco" name="cliente_endereco" placeholder="Digite seu endereço" required>
+                    </section>
+
+                    
+                    <section class="form-section">
+                        <h2>Cadastro de Pets</h2>
+                        <div id="pets-container">
+                            <div class="pet">
+                                <label for="pet-nome-1">Nome do Pet</label>
+                                <input type="text" id="petNome1" name="pets[0][nome]" placeholder="Nome do pet" required>
+
+                                <label for="pet-idade-1">Idade do Pet</label>
+                                <input type="number" id="petIdade1" name="pets[0][idade]" placeholder="Idade do pet" required>
+
+                                <label for="pet-tipo-1">Tipo do Pet</label>
+                                <select id="petTipo1" name="pets[0][tipo]" required>
+                                    <option value="cachorro">Cachorro</option>
+                                    <option value="gato">Gato</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <textarea id="petinfo" placeholder="Informações sobre seus pets..." rows="4"></textarea>
+                        <button class="btnAdicionar" type="button" id="adicionar-pet">Adicionar Mais um Pet</button>
+                    </section>
+
+                    <section>
+                    
+                    </section>
+
+                  
+                    <button type="submit" class="btn" id="Cadastrar">Cadastrar</button>
+                </div>
+            </div>
+            <div class="resultado" id="resultado"</div>
+        </form>
+        
+    </div>
+   
+    <script src="js/script.js"></script>
+</body>
+</html>

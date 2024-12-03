@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cadastropet.css">
+</head>
+<body>
+    <div class="cadastropet">
+    <form action="">
+       
+        <label for="nome-animal">Nome do Animal</label>
+        <input class="inputtexto" type="text" id="nome-animal" class="nomeDoAnimal" placeholder="Digite o nome do animal">
+    
+    
+        <fieldset>
+            <legend>Espécie</legend>
+            <label for="especie-gato">
+                <input type="radio" name="especie" id="especie-gato" value="gato">
+                Gato
+            </label>
+            <label for="especie-cachorro">
+                <input type="radio" name="especie" id="especie-cachorro" value="cachorro">
+                Cachorro
+            </label>
+        </fieldset>
+    
+   
+        <label for="raca-cachorro">Raça de Cachorro</label>
+        <select name="raca-cachorro" id="raca-cachorro" >
+            <option value="" disabled selected>Selecione a Raça do seu Cachorro</option>
+            <option value="labrador">Labrador Retriever</option>
+            <option value="poodle">Poodle</option>
+            <option value="bulldog-ingles">Bulldog Inglês</option>
+            <option value="golden-retriever">Golden Retriever</option>
+            <option value="chihuahua">Chihuahua</option>
+        </select>
+    
+       
+        <label for="raca-gato">Raça de Gato</label>
+        <select name="raca-gato" id="raca-gato" >
+            <option value="" disabled selected>Selecione a Raça do seu Gato</option>
+            <option value="persa">Persa</option>
+            <option value="siames">Siamês</option>
+            <option value="maine-coon">Maine Coon</option>
+            <option value="sphynx">Sphynx</option>
+            <option value="bengal">Bengal</option>
+        </select>
+
+        <textarea name="" id="" placeholder="Observações sobre o animal.... " cols="30"
+        rows="5"></textarea>
+        <button class="btn" type="submit">Enviar</button> <button><a href="index.html">voltar</a></button>
+    </form>
+</div>
+</body>
+</html>
